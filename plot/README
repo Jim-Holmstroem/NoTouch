@@ -1,0 +1,8 @@
+
+
+
+
+# serialport library
+Started using the https://hackage.haskell.org/package/serialport library and the experimental handle API.
+It was a nice idea but it was buggy and wouldn't start reading the handle sporadically (hGetLine) under some
+situations, never figured out why so I abondoned it for reading the serial as an ordinary file instead.
