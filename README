@@ -5,3 +5,7 @@ parity=serial.PARITY_NONE
 stopbits=serial.STOPBITS_ONE
 bytesize=serial.EIGHTBITS
 timeout=None
+
+
+# Photodiod model
+* http://www.thorlabs.de/tutorials.cfm?tabID=31760
